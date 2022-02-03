@@ -1,0 +1,35 @@
+
+
+<table class="table table-hover table-info">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Cid</th>
+      <th scope="col">Cname</th>
+      <th scope="col">Email</th>
+      <th scope="col">Password</th>
+      <th scope="col">Phoneno</th>
+      <th scope="col">Aadharno</th>
+      <th scope="col">Panno</th>
+      <th scope="col">Gender</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let cus of customers">
+      <a routerLink="/updatecus/{{ cus.cid }}" routerLinkActive="active">
+      <th scope="row"></th>
+      <td>{{ cus.cid }}</td>
+      <td>{{ cus.cname }}</td>
+      <td>{{ cus.email }}</td>
+      <td>{{ cus.password }}</td>
+      <td>{{ cus.phoneno }}</td>
+      <td>{{ cus.aadharno }}</td>
+      <td>{{ cus.panno }}</td>
+      <td>{{ cus.gender }}</td>
+      </a>
+      <button (click)="onDelete(cus)">X</button>
+        </tr>
+      </tbody>
+    </table>
+    
+   

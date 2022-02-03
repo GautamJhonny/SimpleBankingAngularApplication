@@ -1,0 +1,45 @@
+[
+  {
+    "eid": 1,
+    "ename": "Nilima",
+    "email": "nilima@gmail.com",
+    "password": "pass",
+    "gender": "Female"
+  },
+  {
+    "eid": 2,
+    "ename": "Pavani",
+    "email": "pavani@gmail.com",
+    "password": "pass",
+    "gender": "Female"
+  },
+  {
+    "eid": 3,
+    "ename": "Gautham",
+    "email": "gautham@gmail.com",
+    "password": "pass",
+    "gender": "Male"
+  },
+  {
+    "eid": 4,
+    "ename": "Pankaj",
+    "email": "pankaj@gmail.com",
+    "password": "pass",
+    "gender": "Male"
+  },
+  {
+    "eid": 5,
+    "ename": "Sushmitha",
+    "email": "sushmita@gmail.com",
+    "password": "pass",
+    "gender": "Female"
+  },
+
+  {
+    "eid": 5,
+    "ename": "jayshri",
+    "email": "jayshri@gmail.com",
+    "password": "pass",
+    "gender": "Female"
+  }
+]
