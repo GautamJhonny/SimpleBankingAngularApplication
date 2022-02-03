@@ -1,0 +1,16 @@
+
+<table class="table table-hover table-info">
+  <thead>
+    <tr>
+      <th scope="col">Cid</th>
+      <th scope="col">Cname</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let cus of customers">
+      <td>{{ cus.cid }}</td>
+      <td>{{ cus.cname }}</td>
+    </tr>
+  </tbody>
+</table>
+
